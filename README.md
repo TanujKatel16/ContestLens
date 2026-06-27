@@ -8,14 +8,14 @@ ContestLens runs directly on LeetCode profile and problem pages, allowing you to
 
 ---
 
-## ✨ Features
+##  Features
 
-### 📊 Contest History Scanner
+###  Contest History Scanner
 
 * Scan the **last 5 contests** attended by any user directly from their LeetCode profile.
 * View contest information in a clean, interactive panel.
 
-### ⌨️ Keystroke Analysis
+###  Keystroke Analysis
 
 Analyze every accepted submission for:
 
@@ -24,7 +24,7 @@ Analyze every accepted submission for:
 * Focus-loss (tab switching)
 * Typing behavior patterns
 
-### 🧠 Smart Detection
+###  Smart Detection
 
 Reduces false positives by distinguishing:
 
@@ -32,15 +32,15 @@ Reduces false positives by distinguishing:
 * Code refactoring
 * Genuine external pastes
 
-### 🔗 One-Click Replay
+###  One-Click Replay
 
 Automatically computes the correct contest ranking page and opens the official LeetCode replay for the selected submission.
 
-### 🎮 Submission Celebration
+###  Submission Celebration
 
 Displays a GTA/Minecraft-inspired animated overlay whenever you successfully submit a solution.
 
-### 🎨 Shadow DOM Isolation
+###  Shadow DOM Isolation
 
 The entire UI is rendered inside a Shadow DOM, preventing conflicts with LeetCode's styling.
 
@@ -50,16 +50,16 @@ The entire UI is rendered inside a Shadow DOM, preventing conflicts with LeetCod
 
 | Verdict           | Meaning                                                           |
 | ----------------- | ----------------------------------------------------------------- |
-| 🟦 **Clean**      | Natural typing pattern with no suspicious activity detected.      |
-| 🟧 **Borderline** | Small external pastes detected (possibly an IDE workflow).        |
-| 🟥 **Suspicious** | Large external paste or physically impossible insertion detected. |
-| ⬜ **Skipped**     | No accepted submission available for analysis.                    |
+|  **Clean**      | Natural typing pattern with no suspicious activity detected.      |
+|  **Borderline** | Small external pastes detected (possibly an IDE workflow).        |
+|  **Suspicious** | Large external paste or physically impossible insertion detected. |
+|  **Skipped**     | No accepted submission available for analysis.                    |
 
-> ⚠️ ContestLens uses heuristics. Users who solve problems in a local IDE and paste their final solution may be flagged. Results should not be considered definitive evidence.
+>  ContestLens uses heuristics. Users who solve problems in a local IDE and paste their final solution may be flagged. Results should not be considered definitive evidence.
 
 ---
 
-# 📥 Installation
+#  Installation
 
 ## 1. Install a Userscript Manager
 
@@ -101,7 +101,7 @@ If it doesn't:
 
 ---
 
-# 🚀 Usage
+#  Usage
 
 1. Visit any LeetCode profile
 
@@ -129,7 +129,7 @@ https://leetcode.com/u/<username>
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 contestlens/
@@ -167,7 +167,7 @@ contestlens/
 
 ---
 
-# 💻 Development
+#  Development
 
 Install dependencies:
 
